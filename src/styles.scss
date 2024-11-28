@@ -1,0 +1,34 @@
+/* Colors */
+$page-background-color: #000;
+$card-background-color: #000;
+$button-background-color: #000;
+$button-hover-background-color: #00a;
+$card-text-color: #fff;
+$button-text-color: #fff;
+$button-text-hover-color: #ffe;
+
+/* Sizes */
+$card-title-text-size: 50px;
+$button-text-size: 25px;
+$card-height-size: 300px;
+$card-width-size: 300px;
+$card-border-radius-size: 25px;
+$button-height-size: 50px;
+$button-width-size: 120px;
+$button-border-radius-size: 10px;
+
+/* Other */
+$page-font-family: 'Roboto';
+
+html,
+body {
+  font-family: $page-font-family;
+  background-color: $page-background-color;
+  color: $card-text-color;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: $card-title-text-size;
+}
