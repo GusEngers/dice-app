@@ -1,34 +1,40 @@
 /* Colors */
-$page-background-color: #000;
-$card-background-color: #000;
-$button-background-color: #000;
-$button-hover-background-color: #00a;
-$card-text-color: #fff;
-$button-text-color: #fff;
-$button-text-hover-color: #ffe;
+$background-page: #590000;
+$background-card: #260000;
+$background-button: #bf0303;
+$text-card-color: #ffc4b8;
+$text-button-color: #ffc4b8;
+$icon-color: #ffc4b8;
+$background-button-hover: $text-button-color;
+$text-button-color-hover: $background-button;
 
 /* Sizes */
-$card-title-text-size: 50px;
-$button-text-size: 25px;
-$card-height-size: 300px;
-$card-width-size: 300px;
-$card-border-radius-size: 25px;
-$button-height-size: 50px;
-$button-width-size: 120px;
-$button-border-radius-size: 10px;
+$button-radio: 10px;
+$card-radio: 25px;
+$width-card: 300px;
+$height-card: 328px;
+$padding-card: 19px 0;
+$margin-card: 10px;
+$width-button: 130px;
+$height-button: 50px;
+$icon-size: 130px;
 
-/* Other */
-$page-font-family: 'Roboto';
+/* Fonts */
+$font-family: 'Roboto', sans-serif;
+$font-card-size: 50px;
+$font-card-line-height: 50px;
+$font-button-size: 25px;
+$font-button-line-height: 50px;
 
 html,
 body {
-  font-family: $page-font-family;
-  background-color: $page-background-color;
-  color: $card-text-color;
+  font-family: $font-family;
+  background-color: $background-page;
   margin: 0;
   padding: 0;
 }
 
 h1 {
-  font-size: $card-title-text-size;
+  color: $text-card-color;
+  font-size: $font-card-size;
 }
